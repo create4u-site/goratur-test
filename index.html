@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Горные туры по России от ООО ТестыПортфолио. Алтай, Кавказ, Урал, Камчатка. Безопасные туры с опытными гидами.">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com https://images.unsplash.com; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;">
+    <title>Горные туры по России | ООО "ТестыПортфолио"</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ======= HEADER STICKY ======= -->
+    <header class="header" id="header">
+        <div class="container header__inner">
+            <div class="logo">
+                <span class="logo__icon">⛰️</span>
+                <span class="logo__text">ООО <strong>"ТестыПортфолио"</strong></span>
+            </div>
+            <nav class="nav" id="nav">
+                <a href="#tours" class="nav__link">Туры</a>
+                <a href="#about" class="nav__link">О нас</a>
+                <a href="#gallery" class="nav__link">Фото</a>
+                <a href="#reviews" class="nav__link">Отзывы</a>
+                <a href="#contact" class="nav__link">Контакты</a>
+            </nav>
+            <a href="tel:+375221234567" class="header__phone">+375 22 123-45-67</a>
+            <button class="burger" id="burger" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ======= БЛОК 1: HERO ======= -->
+    <section class="hero" id="hero">
+        <div class="hero__overlay"></div>
+        <div class="hero__bg">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1920&q=80" 
+                 alt="Горные пейзажи России" 
+                 loading="eager"
+                 draggable="false">
+        </div>
+        <div class="container hero__content">
+            <div class="hero__badge">⭐ 500+ довольных туристов с 2018 года</div>
+            <h1 class="hero__title">Горы зовут —<br><span>ты готов?</span></h1>
+            <p class="hero__subtitle">Авторские горные туры по России от 3 дней.<br>Алтай · Кавказ · Урал · Камчатка</p>
+            <div class="hero__btns">
+                <a href="#tours" class="btn btn--primary">Выбрать тур</a>
+                <a href="#quiz" class="btn btn--outline">Подобрать бесплатно</a>
+            </div>
+            <div class="hero__stats">
+                <div class="stat">
+                    <strong>500+</strong>
+                    <span>туристов</span>
+                </div>
+                <div class="stat">
+                    <strong>7</strong>
+                    <span>лет опыта</span>
+                </div>
+                <div class="stat">
+                    <strong>4</strong>
+                    <span>направления</span>
+                </div>
+                <div class="stat">
+                    <strong>4.9★</strong>
+                    <span>рейтинг</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero__scroll">
+            <span>Листай вниз</span>
+            <div class="hero__scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- ======= БЛОК 2: БОЛИ ======= -->
+    <section class="pain" id="pain">
+        <div class="container">
+            <div class="pain__inner">
+                <div class="pain__left">
+                    <h2 class="section-title">Устал от пляжного туризма?</h2>
+                    <p class="pain__desc">Мы знаем, как ты себя чувствуешь. И у нас есть решение.</p>
+                    <ul class="pain__list">
+                        <li>
+                            <span class="pain__icon">😔</span>
+                            <span>Хочется настоящих эмоций, а не лежать на шезлонге</span>
+                        </li>
+                        <li>
+                            <span class="pain__icon">😟</span>
+                            <span>Боишься ехать один — не знаешь маршрутов</span>
+                        </li>
+                        <li>
+                            <span class="pain__icon">😰</span>
+                            <span>Думаешь, горы только для спортсменов?</span>
+                        </li>
+                        <li>
+                            <span class="pain__icon">🤔</span>
+                            <span>Не знаешь, где безопасно и красиво в России</span>
+                        </li>
+                    </ul>
+                    <div class="pain__solution">
+                        <span class="pain__solution-icon">✅</span>
+                        <p>Мы берём всё на себя — от маршрута до снаряжения. Тебе остаётся только <strong>наслаждаться</strong>.</p>
+                    </div>
+                </div>
+                <div class="pain__right">
+                    <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=80" 
+                         alt="Поход в горы" 
+                         loading="lazy"
+                         draggable="false">
+                    <div class="pain__img-badge">
+                        <strong>100%</strong>
+                        <span>безопасность</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= БЛОК 3: ТУРЫ ======= -->
+    <section class="tours" id="tours">
+        <div class="container">
+            <div class="section-head">
+                <h2 class="section-title">Выбери своё приключение</h2>
+                <p class="section-subtitle">Каждый маршрут — это отдельная история. Найди свою.</p>
+            </div>
+            <div class="tours__grid">
+                <div class="tour-card">
+                    <div class="tour-card__img">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80" 
+                             alt="Алтай горный тур" loading="lazy" draggable="false">
+                        <div class="tour-card__badge">🔥 Хит</div>
+                    </div>
+                    <div class="tour-card__body">
+                        <h3>Алтай</h3>
+                        <div class="tour-card__meta">
+                            <span>📅 7 дней</span>
+                            <span>👥 до 10 чел.</span>
+                            <span>🥾 Средний</span>
+                        </div>
+                        <p>Белуха, Телецкое озеро, Мультинские озёра. Самый живописный маршрут России.</p>
+                        <div class="tour-card__footer">
+                            <div class="tour-card__price">от <strong>42 000 ₽</strong></div>
+                            <a href="#quiz" class="btn btn--small">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tour-card">
+                    <div class="tour-card__img">
+                        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=600&q=80" 
+                             alt="Кавказ горный тур" loading="lazy" draggable="false">
+                        <div class="tour-card__badge tour-card__badge--new">Новый</div>
+                    </div>
+                    <div class="tour-card__body">
+                        <h3>Кавказ</h3>
+                        <div class="tour-card__meta">
+                            <span>📅 5 дней</span>
+                            <span>👥 до 10 чел.</span>
+                            <span>🥾 Лёгкий</span>
+                        </div>
+                        <p>Эльбрус, Домбай, Приэльбрусье. Величественные вершины Большого Кавказа.</p>
+                        <div class="tour-card__footer">
+                            <div class="tour-card__price">от <strong>35 000 ₽</strong></div>
+                            <a href="#quiz" class="btn btn--small">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tour-card">
+                    <div class="tour-card__img">
+                        <img src="https://images.unsplash.com/photo-1536431311719-398b6704d4cc?w=600&q=80" 
+                             alt="Камчатка горный тур" loading="lazy" draggable="false">
+                        <div class="tour-card__badge tour-card__badge--premium">Premium</div>
+                    </div>
+                    <div class="tour-card__body">
+                        <h3>Камчатка</h3>
+                        <div class="tour-card__meta">
+                            <span>📅 10 дней</span>
+                            <span>👥 до 8 чел.</span>
+                            <span>🥾 Сложный</span>
+                        </div>
+                        <p>Вулканы, гейзеры, медведи. Путешествие на край земли, которое меняет жизнь.</p>
+                        <div class="tour-card__footer">
+                            <div class="tour-card__price">от <strong>89 000 ₽</strong></div>
+                            <a href="#quiz" class="btn btn--small">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tour-card">
+                    <div class="tour-card__img">
+                        <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&q=80" 
+                             alt="Урал горный тур" loading="lazy" draggable="false">
+                        <div class="tour-card__badge tour-card__badge--weekend">Выходные</div>
+                    </div>
+                    <div class="tour-card__body">
+                        <h3>Урал</h3>
+                        <div class="tour-card__meta">
+                            <span>📅 3 дня</span>
+                            <span>👥 до 12 чел.</span>
+                            <span>🥾 Лёгкий</span>
+                        </div>
+                        <p>Зюраткуль, Таганай, Иремель. Идеально для первого горного опыта и выходных.</p>
+                        <div class="tour-card__footer">
+                            <div class="tour-card__price">от <strong>18 000 ₽</strong></div>
+                            <a href="#quiz" class="btn btn--small">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= БЛОК 4: ПОЧЕМУ МЫ ======= -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-head">
+                <h2 class="section-title">Почему 500+ человек выбрали нас</h2>
+                <p class="section-subtitle">Мы не просто организуем поход — мы создаём впечатления на всю жизнь</p>
+            </div>
+            <div class="features__grid">
+                <div class="feature-card">
+                    <div class="feature-card__icon">🧭</div>
+                    <h3>Опытные гиды</h3>
+                    <p>10+ лет в горах, сертифицированные инструкторы, знают каждый маршрут</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">🛡️</div>
+                    <h3>Полная безопасность</h3>
+                    <p>Страховка включена, аварийное оборудование, связь со спасателями</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">📦</div>
+                    <h3>Всё включено</h3>
+                    <p>Снаряжение, питание, трансфер, проживание — ничего лишнего не платишь</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">👥</div>
+                    <h3>Малые группы</h3>
+                    <p>До 10 человек — каждый турист получает внимание и поддержку гида</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">🔄</div>
+                    <h3>Гибкая отмена</h3>
+                    <p>Отмена за 7 дней без штрафа — понимаем, что планы меняются</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__icon">💰</div>
+                    <h3>Честная цена</h3>
+                    <p>Никаких скрытых доплат — цена на сайте финальная</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= БЛОК 5: ГАЛЕРЕЯ ======= -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-head">
+                <h2 class="section-title">Посмотри, что тебя ждёт</h2>
+                <p class="section-subtitle">Живые фото с наших маршрутов</p>
+            </div>
+            <div class="gallery__grid">
+                <div class="gallery__item gallery__item--large">
+                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80" 
+                         alt="Горные вершины" loading="lazy" draggable="false">
+                    <div class="gallery__overlay"><span>Алтай</span></div>
+                </div>
+                <div class="gallery__item">
+                    <img src="https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=400&q=80" 
+                         alt="Горное озеро" loading="lazy" draggable="false">
+                    <div class="gallery__overlay"><span>Телецкое озеро</span></div>
+                </div>
+                <div class="gallery__item">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80" 
+                         alt="Рассвет в горах" loading="lazy" draggable="false">
+                    <div class="gallery__overlay"><span>Рассвет</span></div>
+                </div>
+                <div class="gallery__item">
+                    <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=400&q=80" 
+                         alt="Поход в горах" loading="lazy" draggable="false">
+                    <div class="gallery__overlay"><span>На маршруте</span></div>
+                </div>
+                <div class="gallery__item">
+                    <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&q=80" 
+                         alt="Ночь в горах" loading="lazy" draggable="false">
+                    <div class="gallery__overlay"><span>Звёздная ночь</span></div>
+                </div>
+                <div class="gallery__item">
+                    <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=400&q=80" 
+                         alt="Туристы в горах" loading="lazy" draggable="false">
+                    <div class="gallery__overlay"><span>Наша команда</span></div>
+                </div>
+            </div>
+            <div class="gallery__cta">
+                <a href="#quiz" class="btn btn--primary">Хочу так же →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= БЛОК 6: КАК МЫ РАБОТАЕМ ======= -->
+    <section class="steps" id="steps">
+        <div class="container">
+            <div class="section-head">
+                <h2 class="section-title">3 шага до вершины</h2>
+                <p class="section-subtitle">Всё проще, чем ты думаешь</p>
+            </div>
+            <div class="steps__grid">
+                <div class="step-card">
+                    <div class="step-card__num">01</div>
+                    <div class="step-card__icon">🎯</div>
+                    <h3>Выбираешь тур</h3>
+                    <p>Оставляешь заявку или проходишь квиз — мы подбираем маршрут под тебя</p>
+                </div>
+                <div class="step-card__arrow">→</div>
+                <div class="step-card">
+                    <div class="step-card__num">02</div>
+                    <div class="step-card__icon">📋</div>
+                    <h3>Бронируешь</h3>
+                    <p>Получаешь полный пакет документов, инструктаж и список вещей</p>
+                </div>
+                <div class="step-card__arrow">→</div>
+                <div class="step-card">
+                    <div class="step-card__num">03</div>
+                    <div class="step-card__icon">🏔️</div>
+                    <h3>Просто приезжаешь</h3>
+                    <p>Мы встречаем, берём всё на себя. Тебе остаётся только наслаждаться горами</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= БЛОК 7: ОТЗЫВЫ ======= -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-head">
+                <h2 class="section-title">Что говорят наши туристы</h2>
+                <div class="reviews__rating">
+                    <span class="reviews__stars">★★★★★</span>
+                    <strong>4.9/5</strong>
+                    <span>на основе 200+ отзывов</span>
+                </div>
+            </div>
+            <div class="reviews__grid">
+                <div class="review-card">
+                    <div class="review-card__head">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&h=80&fit=crop&q=80" 
+                             alt="Анна" loading="lazy" draggable="false">
+                        <div>
+                            <strong>Анна К.</strong>
+                            <span>Москва, 34 года</span>
+                        </div>
+                        <div class="review-card__stars">★★★★★</div>
+                    </div>
+                    <p>"Алтай превзошёл все ожидания! Никогда не думала, что решусь, но гиды сделали всё комфортным. Это был лучший отпуск в моей жизни. Уже планирую второй тур!"</p>
+                    <span class="review-card__tour">🏔️ Алтай, 7 дней</span>
+                </div>
+                <div class="review-card">
+                    <div class="review-card__head">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&q=80" 
+                             alt="Дмитрий" loading="lazy" draggable="false">
+                        <div>
+                            <strong>Дмитрий М.</strong>
+                            <span>Санкт-Петербург, 28 лет</span>
+                        </div>
+                        <div class="review-card__stars">★★★★★</div>
+                    </div>
+                    <p>"Камчатка — это другая планета. Организация на высшем уровне, гид Сергей — профессионал с большой буквы. Безопасность была на первом месте. Рекомендую!"</p>
+                    <span class="review-card__tour">🌋 Камчатка, 10 дней</span>
+                </div>
+                <div class="review-card">
+                    <div class="review-card__head">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&q=80" 
+                             alt="Елена" loading="lazy" draggable="false">
+                        <div>
+                            <strong>Елена В.</strong>
+                            <span>Екатеринбург, 41 год</span>
+                        </div>
+                        <div class="review-card__stars">★★★★★</div>
+                    </div>
+                    <p>"Поехала с подругами на Урал на выходные. Думали — поход как поход. Оказалось — событие на всю жизнь! Уже записались на Кавказ. Спасибо команде!"</p>
+                    <span class="review-card__tour">⛰️ Урал, 3 дня</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= БЛОК 8: ОФФЕР + ДЕДЛАЙН ======= -->
+    <section class="offer" id="offer">
+        <div class="offer__overlay"></div>
+        <div class="offer__bg">
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1920&q=80" 
+                 alt="Горы ночью" loading="lazy" draggable="false">
+        </div>
+        <div class="container offer__content">
+            <div class="offer__badge">🔥 Специальное предложение</div>
+            <h2>Успей на летний сезон 2025</h2>
+            <p>При бронировании до <strong>1 июня</strong> — скидка <strong>10%</strong><br>+ Трансфер из аэропорта в подарок</p>
+            <div class="timer" id="timer">
+                <div class="timer__item">
+                    <span id="timer-days">00</span>
+                    <label>Дней</label>
+                </div>
+                <div class="timer__sep">:</div>
+                <div class="timer__item">
+                    <span id="timer-hours">00</span>
+                    <label>Часов</label>
+                </div>
+                <div class="timer__sep">:</div>
+                <div class="timer__item">
+                    <span id="timer-minutes">00</span>
+                    <label>Минут</label>
+                </div>
+                <div class="timer__sep">:</div>
+                <div class="timer__item">
+                    <span id="timer-seconds">00</span>
+                    <label>Секунд</label>
+                </div>
+            </div>
+            <div class="offer__seats">
+                <span>Осталось мест:</span>
+                <div class="seats__bar">
+                    <div class="seats__fill"></div>
+                </div>
+                <strong>8 из 10</strong>
+            </div>
+            <a href="#quiz" class="btn btn--primary btn--large">Забронировать со скидкой</a>
+        </div>
+    </section>
+
+    <!-- ======= БЛОК 9: КВИЗ ======= -->
+    <section class="quiz" id="quiz">
+        <div class="container">
+            <div class="quiz__inner">
+                <div class="quiz__left">
+                    <h2 class="section-title">Не знаешь, с чего начать?</h2>
+                    <p>Пройди мини-тест — подберём тур за 2 минуты</p>
+                    <ul class="quiz__benefits">
+                        <li>✅ Бесплатный подбор маршрута</li>
+                        <li>✅ Без навязчивых звонков</li>
+                        <li>✅ Ответим в WhatsApp за 15 минут</li>
+                        <li>✅ Подберём под любой бюджет</li>
+                    </ul>
+                </div>
+                <div class="quiz__right">
+                    <form class="quiz__form" id="quizForm" novalidate>
+                        <div class="quiz__step active" data-step="1">
+                            <p class="quiz__question">Вопрос 1/3: Ваш уровень физподготовки?</p>
+                            <div class="quiz__options">
+                                <label class="quiz__option">
+                                    <input type="radio" name="level" value="beginner">
+                                    <span>🛋️ Диван-эксперт</span>
+                                </label>
+                                <label class="quiz__option">
+                                    <input type="radio" name="level" value="medium">
+                                    <span>🚶 Иногда хожу</span>
+                                </label>
+                                <label class="quiz__option">
+                                    <input type="radio" name="level" value="active">
+                                    <span>🏃 Активный</span>
+                                </label>
+                            </div>
+                            <button type="button" class="btn btn--primary quiz__next" data-next="2">Далее →</button>
+                        </div>
+                        <div class="quiz__step" data-step="2">
+                            <p class="quiz__question">Вопрос 2/3: На сколько дней планируете?</p>
+                            <div class="quiz__options">
+                                <label class="quiz__option">
+                                    <input type="radio" name="days" value="3-5">
+                                    <span>🗓️ 3–5 дней</span>
+                                </label>
+                                <label class="quiz__option">
+                                    <input type="radio" name="days" value="7-10">
+                                    <span>📅 7–10 дней</span>
+                                </label>
+                                <label class="quiz__option">
+                                    <input type="radio" name="days" value="10+">
+                                    <span>🏕️ Больше 10</span>
+                                </label>
+                            </div>
+                            <button type="button" class="btn btn--primary quiz__next" data-next="3">Далее →</button>
+                        </div>
+                        <div class="quiz__step" data-step="3">
+                            <p class="quiz__question">Вопрос 3/3: Бюджет на человека?</p>
+                            <div class="quiz__options">
+                                <label class="quiz__option">
+                                    <input type="radio" name="budget" value="low">
+                                    <span>💰 до 30 000 ₽</span>
+                                </label>
+                                <label class="quiz__option">
+                                    <input type="radio" name="budget" value="mid">
+                                    <span>💎 30 000–60 000 ₽</span>
+                                </label>
+                                <label class="quiz__option">
+                                    <input type="radio" name="budget" value="high">
+                                    <span>🏆 Не ограничен</span>
+                                </label>
+                            </div>
+                            <button type="button" class="btn btn--primary quiz__next" data-next="4">Далее →</button>
+                        </div>
+                        <div class="quiz__step" data-step="4">
+                            <p class="quiz__question">Отлично! Куда прислать подборку туров?</p>
+                            <div class="quiz__inputs">
+                                <input type="text" 
+                                       id="userName" 
+                                       name="name" 
+                                       placeholder="Ваше имя" 
+                                       maxlength="50"
+                                       autocomplete="name"
+                                       required>
+                                <input type="tel" 
+                                       id="userPhone" 
+                                       name="phone" 
+                                       placeholder="+375 XX XXX-XX-XX"
+                                       maxlength="20"
+                                       autocomplete="tel"
+                                       required>
+                            </div>
+                            <div class="quiz__agree">
+                                <label>
+                                    <input type="checkbox" id="agreeCheck" required>
+                                    <span>Соглашаюсь с <a href="#" onclick="return false;">политикой конфиденциальности</a></span>
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn--primary btn--full">
+                                Получить подборку туров →
+                            </button>
+                            <p class="quiz__note">Без навязчивых звонков. Ответим в WhatsApp</p>
+                        </div>
+                        <div class="quiz__step quiz__success" data-step="5">
+                            <div class="success__icon">🎉</div>
+                            <h3>Отлично! Заявка принята</h3>
+                            <p>Мы свяжемся с вами в течение 15 минут и пришлём подборку туров в WhatsApp</p>
+                            <a href="tel:+375221234567" class="btn btn--primary">Позвонить сейчас</a>
+                        </div>
+                        <div class="quiz__progress">
+                            <div class="quiz__progress-bar" id="progressBar"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= БЛОК 10: ФУТЕР ======= -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <div class="logo logo--white">
+                        <span class="logo__icon">⛰️</span>
+                        <span class="logo__text">ООО <strong>"ТестыПортфолио"</strong></span>
+                    </div>
+                    <p class="footer__desc">Авторские горные туры по России с 2018 года. Безопасно, красиво, незабываемо.</p>
+                    <div class="footer__social">
+                        <a href="#" aria-label="VK" onclick="return false;">VK</a>
+                        <a href="#" aria-label="Telegram" onclick="return false;">TG</a>
+                        <a href="#" aria-label="WhatsApp" onclick="return false;">WA</a>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <h4>Направления</h4>
+                    <ul>
+                        <li><a href="#tours">Алтай</a></li>
+                        <li><a href="#tours">Кавказ</a></li>
+                        <li><a href="#tours">Камчатка</a></li>
+                        <li><a href="#tours">Урал</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Компания</h4>
+                    <ul>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#gallery">Фотогалерея</a></li>
+                        <li><a href="#quiz">Подобрать тур</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Контакты</h4>
+                    <a href="tel:+375221234567" class="footer__phone">+375 22 123-45-67</a>
+                    <a href="mailto:info@testyportfolio.ru" class="footer__email">info@testyportfolio.ru</a>
+                    <p class="footer__work">Пн–Вс: 9:00 – 21:00</p>
+                    <div class="footer__license">
+                        <span>✓ Лицензия туроператора: РТО-012345</span>
+                        <span>✓ Член АТОР</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2025 ООО "ТестыПортфолио". Все права защищены.</p>
+                <div class="footer__links">
+                    <a href="#" onclick="return false;">Политика конфиденциальности</a>
+                    <a href="#" onclick="return false;">Пользовательское соглашение</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ======= КНОПКА НАВЕРХ ======= -->
+    <button class="scroll-top" id="scrollTop" aria-label="Наверх">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <!-- ======= ПЛАВАЮЩИЙ WhatsApp ======= -->
+    <a href="https://wa.me/375221234567" 
+       class="whatsapp-btn" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       aria-label="Написать в WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
